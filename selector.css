@@ -1,0 +1,86 @@
+/* Element Selector
+Id Selector
+Class Selector
+Universal Selector
+Group Selector
+Attribute Selector
+Pseudo-Class Selector
+Pseudo-Element Selector*/
+
+
+
+
+
+/* Element Selector*/
+
+h1 {
+    color: red;
+    font-size: 3rem;
+}
+
+p {
+    color: white;
+    background-color:aqua;
+}
+
+
+/* ID Selector */
+#div-container{
+    color: red;
+    background-color:aqua;
+}
+
+/* Class Selector */
+.paragraph-class {
+    color:white;
+    font-family:'Courier New', Courier, monospace;
+    background-color: green;
+}
+
+/* Universal Selector */
+
+* {
+  color: white;
+  background-color: black;
+}
+
+/* Group Selector */
+#div-container, .paragraph-class, h1{
+    color: white;
+    background-color: aqua;
+    font-family: 'Courier New', Courier, monospace;    
+}
+
+/* Attribute Selector */
+
+[href] {   background-color: lightgreen;
+   color: black;
+   font-family: 'Courier New', Courier, monospace;
+   font-size: 1rem;
+   }
+
+
+/* Psedo Class Selector */
+h1:hover{
+    background-color:palevioletred;
+}
+
+/* Psedo Class Selector */
+p:hover{
+    background-color:red;
+}
+
+/* Psedo Class Selector */
+#div-container:hover{
+    background-color:gold;
+}
+
+/* Psedo Class Selector */
+.paragraph-class:hover{
+    background-color:green;
+}
+
+/*Pseudo-Element Selector*/
+p::first-line{
+    background-color: palevioletred;
+}
